@@ -45,8 +45,8 @@
 		2587AD361DBBB59200100556 = {
 			isa = PBXGroup;
 			children = (
-				2587AD411DBBB59200100556 /* TwitterLaunchDemo */,
 				2587AD401DBBB59200100556 /* Products */,
+				2587AD411DBBB59200100556 /* TwitterLaunchDemo */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,15 +62,15 @@
 			isa = PBXGroup;
 			children = (
 				259AF7E71DC1020500A377D1 /* HZLaunchVIew */,
+				2587AD421DBBB59200100556 /* Supporting Files */,
 				2587AD451DBBB59200100556 /* AppDelegate.h */,
 				2587AD461DBBB59200100556 /* AppDelegate.m */,
+				2587AD4E1DBBB59200100556 /* Assets.xcassets */,
+				2587AD531DBBB59200100556 /* Info.plist */,
+				2587AD501DBBB59200100556 /* LaunchScreen.storyboard */,
+				2587AD4B1DBBB59200100556 /* Main.storyboard */,
 				2587AD481DBBB59200100556 /* ViewController.h */,
 				2587AD491DBBB59200100556 /* ViewController.m */,
-				2587AD4B1DBBB59200100556 /* Main.storyboard */,
-				2587AD4E1DBBB59200100556 /* Assets.xcassets */,
-				2587AD501DBBB59200100556 /* LaunchScreen.storyboard */,
-				2587AD531DBBB59200100556 /* Info.plist */,
-				2587AD421DBBB59200100556 /* Supporting Files */,
 			);
 			path = TwitterLaunchDemo;
 			sourceTree = "<group>";
@@ -80,7 +80,7 @@
 			children = (
 				2587AD431DBBB59200100556 /* main.m */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		259AF7E71DC1020500A377D1 /* HZLaunchVIew */ = {
@@ -89,7 +89,7 @@
 				259AF7E41DC0FA6000A377D1 /* HZLaunchView.h */,
 				259AF7E51DC0FA7000A377D1 /* HZLaunchView.m */,
 			);
-			name = HZLaunchVIew;
+			path = HZLaunchVIew;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +179,7 @@
 				2587AD4C1DBBB59200100556 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		2587AD501DBBB59200100556 /* LaunchScreen.storyboard */ = {
@@ -187,6 +188,7 @@
 				2587AD511DBBB59200100556 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
