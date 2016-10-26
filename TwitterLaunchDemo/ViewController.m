@@ -16,6 +16,7 @@ static NSString * const kTwitterImageName = @"twitter";
 @interface ViewController ()
 
 @property (nonatomic, strong) HZLaunchView *launchView;
+
 @end
 
 @implementation ViewController
@@ -32,6 +33,7 @@ static NSString * const kTwitterImageName = @"twitter";
             [self.launchView startAnimationWithDuration:3];
         });
 }
+
 #pragma mark - getter
 -(HZLaunchView *)launchView{
     if (!_launchView) {
@@ -40,6 +42,7 @@ static NSString * const kTwitterImageName = @"twitter";
     }
     return _launchView;
 }
+
 #pragma mark - private
 - (UIColor *)hz_colorFromHexString:(NSString *)hexString
 {

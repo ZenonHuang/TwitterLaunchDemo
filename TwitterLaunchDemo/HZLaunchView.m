@@ -22,7 +22,7 @@
 
 @implementation HZLaunchView
 
-#pragma mark - Init
+#pragma mark - init
 
 - (instancetype)initWithIconImage:(UIImage *)icon iconColor:(UIColor *)color backgroundColor:(UIColor *)bgColor
 {
@@ -49,7 +49,7 @@
     return [self initWithIconImage:icon iconColor:[UIColor whiteColor] backgroundColor:color];
 }
 
-#pragma mark - Public methods
+#pragma mark - public methods
 
 - (void)startAnimationWithDuration:(NSTimeInterval)duration
 {
@@ -84,7 +84,7 @@
     }];
 }
 
-#pragma mark - property getters
+#pragma mark - getter
 
 - (CGSize)iconStartSize
 {

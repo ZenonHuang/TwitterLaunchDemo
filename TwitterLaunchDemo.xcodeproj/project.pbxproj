@@ -61,6 +61,7 @@
 		2587AD411DBBB59200100556 /* TwitterLaunchDemo */ = {
 			isa = PBXGroup;
 			children = (
+				259AF7E71DC1020500A377D1 /* HZLaunchVIew */,
 				2587AD451DBBB59200100556 /* AppDelegate.h */,
 				2587AD461DBBB59200100556 /* AppDelegate.m */,
 				2587AD481DBBB59200100556 /* ViewController.h */,
@@ -70,8 +71,6 @@
 				2587AD501DBBB59200100556 /* LaunchScreen.storyboard */,
 				2587AD531DBBB59200100556 /* Info.plist */,
 				2587AD421DBBB59200100556 /* Supporting Files */,
-				259AF7E41DC0FA6000A377D1 /* HZLaunchView.h */,
-				259AF7E51DC0FA7000A377D1 /* HZLaunchView.m */,
 			);
 			path = TwitterLaunchDemo;
 			sourceTree = "<group>";
@@ -82,6 +81,15 @@
 				2587AD431DBBB59200100556 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		259AF7E71DC1020500A377D1 /* HZLaunchVIew */ = {
+			isa = PBXGroup;
+			children = (
+				259AF7E41DC0FA6000A377D1 /* HZLaunchView.h */,
+				259AF7E51DC0FA7000A377D1 /* HZLaunchView.m */,
+			);
+			name = HZLaunchVIew;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -11,24 +11,44 @@
 
 @interface HZLaunchView : UIView
 
+/**
+ 禁止使用 init 或 new 的方法来初始化,必须给定参数
+ */
+- ( instancetype)init UNAVAILABLE_ATTRIBUTE;
++ ( instancetype)new UNAVAILABLE_ATTRIBUTE;
+
+
+/**
+ 初始化HZLaunchView
+
+ @param icon  图片
+ @param color 背景颜色
+
+ @return launchView
+ */
 - (instancetype)initWithIconImage:(UIImage *)icon backgroundColor:(UIColor *)color;
 
 
 /**
- *  Call to start the animation.
+ 启动动画
+
+ @param duration 动画时间
  */
 - (void)startAnimationWithDuration:(NSTimeInterval)duration;
 
+
 /**
- *  Call to start the animation with completion handler.
+ 启动动画
+
+ @param duration          动画时间
+ @param completionHandler 回调
  */
 - (void)startAnimationWithDuration:(NSTimeInterval)duration CompletionHandler:(void (^)())completionHandler;
 
+
 /**
- *  The starting size of the centred icon.
+ icon的size,默认为(60,60)
  */
 @property (nonatomic, assign) CGSize iconStartSize;
-
-
 
 @end
