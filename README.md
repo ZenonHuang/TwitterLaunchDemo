@@ -2,9 +2,6 @@
 
 两行代码完成类似推特启动页的效果
 
-# 效果展示
-![demoGif](http://7xiym9.com1.z0.glb.clouddn.com/HZLaunchView.gif)
-
 # 使用
 
 导入`HZLaunchView.h`
@@ -24,5 +21,10 @@ HZLaunchView *launchView=[[HZLaunchView alloc] initWithIconImage:[UIImage imageN
 [self.launchView startAnimationWithDuration:3];
 
 ```
+
+# 效果展示
+![demoGif](http://7xiym9.com1.z0.glb.clouddn.com/HZLaunchView.gif)
+
+
 
 
