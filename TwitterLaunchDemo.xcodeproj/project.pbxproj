@@ -13,6 +13,7 @@
 		2587AD4D1DBBB59200100556 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2587AD4B1DBBB59200100556 /* Main.storyboard */; };
 		2587AD4F1DBBB59200100556 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2587AD4E1DBBB59200100556 /* Assets.xcassets */; };
 		2587AD521DBBB59200100556 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2587AD501DBBB59200100556 /* LaunchScreen.storyboard */; };
+		259AF7E61DC0FA7000A377D1 /* HZLaunchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 259AF7E51DC0FA7000A377D1 /* HZLaunchView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		2587AD4E1DBBB59200100556 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2587AD511DBBB59200100556 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2587AD531DBBB59200100556 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		259AF7E41DC0FA6000A377D1 /* HZLaunchView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZLaunchView.h; sourceTree = "<group>"; };
+		259AF7E51DC0FA7000A377D1 /* HZLaunchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZLaunchView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				2587AD501DBBB59200100556 /* LaunchScreen.storyboard */,
 				2587AD531DBBB59200100556 /* Info.plist */,
 				2587AD421DBBB59200100556 /* Supporting Files */,
+				259AF7E41DC0FA6000A377D1 /* HZLaunchView.h */,
+				259AF7E51DC0FA7000A377D1 /* HZLaunchView.m */,
 			);
 			path = TwitterLaunchDemo;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2587AD4A1DBBB59200100556 /* ViewController.m in Sources */,
+				259AF7E61DC0FA7000A377D1 /* HZLaunchView.m in Sources */,
 				2587AD471DBBB59200100556 /* AppDelegate.m in Sources */,
 				2587AD441DBBB59200100556 /* main.m in Sources */,
 			);
@@ -307,6 +313,7 @@
 				2587AD581DBBB59200100556 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
